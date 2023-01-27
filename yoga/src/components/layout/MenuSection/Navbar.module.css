@@ -1,0 +1,62 @@
+
+.menu__section{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    z-index: 2;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    z-index: 2;
+}
+
+.item{
+ 
+    font-size: 1.2rem;
+    border: none;
+    list-style: none;
+   
+    
+}
+
+.item a{
+    text-decoration: none;
+    color:rgb(105, 103, 103);
+    letter-spacing: 1px;
+    margin-left: 2rem;  
+    
+}
+
+.item a:hover{
+    transition: 0.4s;
+    border: none;
+    color:rgb(93, 67, 20);
+}
+
+
+
+
+.logo__yoga{
+    width: 10rem;
+    border-radius:30%;
+    margin-top: 70px;
+    margin-left: 6rem;
+}

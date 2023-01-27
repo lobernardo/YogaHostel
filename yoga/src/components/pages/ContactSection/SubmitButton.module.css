@@ -1,0 +1,18 @@
+.btn_ctt{
+    width: 7.5rem;
+    height: 2rem;
+    border-radius: 200px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    background-color: rgb(33, 70, 155);
+    color:rgb(7, 13, 38);
+    border: none;
+    cursor: pointer;
+    margin: 0.4rem;
+}
+
+button:hover{
+    color:white;
+    background-color: grey;
+}
