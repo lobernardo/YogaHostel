@@ -1,7 +1,7 @@
 import styles from './HomeTwo.module.css'
 import logo_apoio from '../../assets/logo_apoio.png'
 import yoga1 from '../../assets/yoga1.png'
-
+import 'animate.css'
 
 function HomeTwo (){
     return(

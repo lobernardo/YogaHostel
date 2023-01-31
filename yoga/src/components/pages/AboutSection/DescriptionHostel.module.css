@@ -1,0 +1,28 @@
+.description__hostel__container{
+    background-color: rgba(50, 31, 31, 0.39);
+    width: 35rem;
+    height: 33rem;
+    border-radius: 10px;
+    position: absolute;
+    right: 10rem;
+    top:12rem;
+    animation: myAnim 2.5s ease-in 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.description__hostel__container p{
+    color: white;
+    letter-spacing: 2px;
+    line-height: 36px;
+    font-size: 22px;
+    margin: 2rem;
+}

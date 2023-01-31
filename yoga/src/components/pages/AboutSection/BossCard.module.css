@@ -1,0 +1,105 @@
+.card__container__about img{
+    width: 17rem;
+    height: 20rem;
+    border-radius: 10px;
+    position: absolute;
+    left:12rem;
+    top:5rem;
+    animation: myAnim 3s ease 0s 1 normal forwards;
+    cursor: pointer;
+}
+
+.card__container__about .card_um{
+    z-index: 1;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+.card__container__about .card_dois{
+    
+    position: absolute;
+    top:22rem;
+    left: 26rem;
+    width: 17rem;
+    height: 20rem;
+    z-index: 0;
+    animation: myAnim 2.5s ease 0s 1 normal forwards;
+}
+
+
+.about__container__description{
+    background-color: rgba(127, 122, 122, 0.157);
+    width: 35rem;
+    height: 33rem;
+    border-radius: 10px;
+    position: absolute;
+    top:7rem;
+    left: 10rem;
+}
+
+.about__container__description h2{
+    color:rgb(90, 64, 64);
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+
+.about__container__description .osmar{
+    position: absolute;
+    top:1rem;
+    left: 23rem;
+}
+
+.about__container__description .matilde{
+    position: absolute;
+    top: 19rem;
+    left: 4rem;
+}
+
+.boss__container{
+    
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(-45px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(-24px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(-12px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(-6px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(-4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}

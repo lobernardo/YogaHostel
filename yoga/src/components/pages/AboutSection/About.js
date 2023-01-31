@@ -1,4 +1,6 @@
 import styles from './About.module.css'
+import BossCard from './BossCard'
+import DescriptionHostel from './DescriptionHostel'
 
 
 
@@ -9,7 +11,8 @@ function About() {
 
         <section className={styles.about__container}>
 
-            <h1>About</h1>
+            <BossCard />
+            <DescriptionHostel />
             
         </section>
 
