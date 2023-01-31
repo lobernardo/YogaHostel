@@ -9,6 +9,7 @@
     cursor: pointer;
 }
 
+
 .card__container__about .card_um{
     z-index: 1;
     animation: myAnim 2s ease 0s 1 normal forwards;
@@ -55,7 +56,8 @@
 }
 
 .boss__container{
-    
+	position: absolute;
+    top:3rem;
 }
 
 @keyframes myAnim {
