@@ -3,7 +3,7 @@
 }
 
 .description__hostel__two__container{
-    background-color: rgba(227, 216, 216, 0.648);
+    background-color: rgba(227, 216, 216, 0.878);
     width: 75rem;
     height: 33rem;
     border-radius: 10px;
@@ -12,10 +12,45 @@
     top:60rem;
 }
 
-.img__apoio__about__description {
+.card__picture__about__two{
+    display: flex;
+    flex-direction: row;
+    margin:1rem;
+}
+
+.card__picture__about__two .img__apoio__about__description{
     width: 24rem;
+    height: 16rem;
     border-radius: 30px ;
     position: absolute;
     left: 2rem;
     top:-3rem;
+}
+
+.card__picture__about__two .img__apoio__about__description__dois{
+    width: 24rem;
+    height: 16rem;
+    border-radius: 30px ;
+    position: absolute;
+    left: 28rem;
+    top:-3rem;
+}
+
+.card__picture__about__two .img__apoio__about__description__tres{
+    width: 24rem;
+    height: 16rem;
+    border-radius: 30px ;
+    position: absolute;
+    left: 54rem;
+    top:-3rem;
+}
+
+.description__hostel__two__container p{
+    color: rgba(76, 33, 33, 0.887);
+    letter-spacing: 2px;
+    line-height: 36px;
+    font-size: 22px;
+    margin: 2rem;
+    text-align: center;
+    margin-top: 17rem;
 }

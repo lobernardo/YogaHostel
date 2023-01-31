@@ -1,16 +1,30 @@
 .home__section__one{
     width: 100%;
     height: 100vh;
-    background-color: white;
-    /*background-image: url('../../assets/banner5.png');*/
+    background-image: url('../../assets/bannerteste.png');
     background-repeat: no-repeat;
-    background-size:contain;
-    background-position: 20%;
+    background-size:cover;
+    background-position: 30%;
+    filter:contrast(1.2);
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     z-index: -2;
+    animation: myAnim_banner 5s ease-in-out 0.1s 1 normal forwards;
+
+}
+
+@keyframes myAnim_banner {
+	0% {
+		background-position: right center;
+		background-size: 100%;
+	}
+
+	100% {
+		background-position: right center;
+		background-size: 120%;
+	}
 
 }
 
@@ -19,41 +33,6 @@
     width: 100%;
 }
 
-.txt__home{
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(152, 147, 147, 0.759);
-    border-radius: 20px;
-    padding: 0.7rem;
-    font-weight: bold;
-    position: absolute;
-    top: 13rem;
-    text-transform: uppercase;
-    animation: myAnim 3s ease 0s 1 normal forwards;
-    
-}
-
-.txt__home h1{
-    font-size: 2.3rem;
-    letter-spacing: 2px;
-    color:rgb(242, 240, 237);
-    font-weight: 300;
-}
-
-.txt__home h1 span{
-    color: rgb(72, 61, 38);
-    font-weight: bold;
-    font-size: 3.3rem;
-    margin: 0.5rem;
-}
-
-.txt__home p{
-    font-size: 2rem;
-    font-weight: 300;
-    letter-spacing: 16px;
-    text-transform: lowercase;
-    color:rgb(242, 240, 237);
-}
 
 .menu__banner a{
     font-size: 1.5rem;
@@ -63,14 +42,30 @@
     cursor: pointer;
 }
 
-.menu__banner button{
-    cursor: pointer;
-    text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.759);
-    border-radius: 23px;
-    border: none;
-    margin: 0.7rem;
-    padding: 0.3rem;
+.logo__banner{
+    border-radius: 60px;
+    width: 17rem;
+    height: 17rem;
+    border-radius: 120px;
+    position: absolute;
+    top:8rem;
+    animation: myAnim_logobanner 5s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim_logobanner {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+Button{
+	position: absolute;
+	top:28rem;
+	left: 44rem;
 }
 
 .animation__txt__home{

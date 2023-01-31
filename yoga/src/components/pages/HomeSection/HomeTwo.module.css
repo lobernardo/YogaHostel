@@ -10,13 +10,14 @@
     justify-content: start;
     align-items: flex-start;
     position: relative;
+    margin-top: 2rem;
 }
 
 .logo_apoio_home{
     width: 12rem;
     position: absolute;
     left: 16rem;
-    top:0.3rem;
+    top:0.5rem;
     z-index: 1;
 }
 
