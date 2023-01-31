@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-import logo_yoga from '../../assets/logo_yoga.png'
+import logo2 from '../../assets/logo2.png'
 
 
 import styles from './Navbar.module.css'
@@ -11,7 +11,7 @@ function Navbar() {
          
                 <section className={styles.menu__section} id='menu'>
                   
-                <Link to='/'><img className={styles.logo__yoga} src={logo_yoga}/></Link>
+                <Link to='/'><img className={styles.logo2} src={logo2}/></Link>
 
                 <nav className={styles.navbar}>
                     
