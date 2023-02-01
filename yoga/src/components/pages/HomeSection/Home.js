@@ -1,3 +1,4 @@
+import Button from '../../layout/ButtonSection/Button'
 import styles from './Home.module.css'
 
 
@@ -11,6 +12,7 @@ function Home() {
 <section className={styles.home__section} id='home'>
 
             <HomeOne />
+            <Button />
             <HomeTwo />
 
 </section>

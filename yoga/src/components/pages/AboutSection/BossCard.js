@@ -7,6 +7,9 @@ import 'animate.css'
 function BossCard (){
     return(
         <div className={styles.boss__container}>
+
+
+            <div className={styles.boss__geral}>
             <div className={styles.card__container__about}>
               <img className={styles.card_um} src={osmar}/>
               <img className={styles.card_dois} src={matilde}/>
@@ -16,6 +19,8 @@ function BossCard (){
                 <h2 className={styles.osmar}>Osmar</h2>
                 <h2 className={styles.matilde}>Matilde</h2>
             </div>
+            </div>
+
         </div>
     )
 }

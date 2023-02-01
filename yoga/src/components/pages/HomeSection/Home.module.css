@@ -3,5 +3,13 @@
     height: 230vh;
 }
 
+.home__section Button{
+    position: absolute;
+    top:33rem;
+    text-transform: uppercase;
+}
 
+.home__section Button:hover{
+    background-color: rgb(138, 131, 4);
+}
 

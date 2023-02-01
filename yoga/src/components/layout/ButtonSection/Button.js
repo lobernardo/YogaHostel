@@ -3,18 +3,10 @@ import styles from './Button.module.css'
 
 function Button() {
     return(
-      
-        <section>
 
-        <button className={styles.btn}>
-            
-        Reservar
-    
-        </button>
-            
-        </section>
-
-     
+        <a href=''><button className={styles.btn} type="button" name="myButton" autofocus>
+	    Reservar
+        </button></a>
     )
 }
 

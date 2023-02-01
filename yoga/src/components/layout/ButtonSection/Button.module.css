@@ -1,10 +1,11 @@
 .btn{
     width: 130px;
-    height: 50px;
+    height: 40px;
     padding: 0.3rem;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1.5px solid rgb(255, 255, 255);
     border-radius: 5px;
     background-color: transparent;
+    cursor: pointer;
     animation: myAnim_logobanner 5s ease 0s 1 normal forwards;
 }
 
@@ -28,5 +29,6 @@ button{
 
 button:hover{
     cursor: pointer;
-    background-color: rebeccapurple;
+    background-color: rgb(138, 131, 4);
 }
+

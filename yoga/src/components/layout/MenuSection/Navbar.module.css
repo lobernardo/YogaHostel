@@ -7,10 +7,9 @@
     justify-content: space-between;
     align-items: center;
     background-color: transparent;
-    z-index: 2;
-    
-
-
+    z-index: 3;
+    position: fixed;
+    background-color: rgb(242, 240, 237);
 }
 
 .navbar{
@@ -32,7 +31,7 @@
 
 .item{
  
-    font-size: 1.2rem;
+    font-size: 1rem;
     border: none;
     list-style: none;
    
@@ -43,14 +42,14 @@
     text-decoration:none;
     color:rgb(105, 103, 103);
     letter-spacing: 1px;
-    margin-left: 2rem;  
-    transition: 3s;
+    margin-left: 1.2rem;  
+    transition: 0.7s;
 }
 
 .item a:hover{
     transition: 0.4s;
     border: none;
-    background-color:rgba(93, 68, 20, 0.79);
+    background-color: rgb(138, 131, 4);
     color:white;
     text-decoration:overline;
     transition: 1s;
@@ -110,12 +109,12 @@
 }
 
 .btn_navbar{
-    width: 90px;
+    width: 120px;
     height: 40px;
     margin-left: 1rem;
     background-color: yellow;
     border: none;
-    border-radius: 5px;
+    border-radius: 3px;
     list-style: none;
     display: flex;
     justify-content: center;
@@ -131,5 +130,9 @@
 .btn_navbar a:hover{
     cursor: pointer;
     transform: 1s;
-    font-weight: bold;
 }   
+
+.btn_navbar:hover{
+    background-color: rgb(138, 131, 4);
+    cursor: pointer;
+}

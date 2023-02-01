@@ -1,11 +1,11 @@
 .description__hostel__container{
-    background-color: rgba(50, 31, 31, 0.39);
+    background-color: rgba(16, 98, 28, 0.746);
     width: 35rem;
     height: 33rem;
     border-radius: 10px;
     position: absolute;
     right: 10rem;
-    top:14rem;
+    top:44rem;
     animation: myAnim 2.5s ease-in 0s 1 normal forwards;
 }
 
@@ -23,6 +23,7 @@
     color: white;
     letter-spacing: 2px;
     line-height: 36px;
-    font-size: 22px;
+    font-size: 19px;
     margin: 2rem;
+    text-align: center;
 }

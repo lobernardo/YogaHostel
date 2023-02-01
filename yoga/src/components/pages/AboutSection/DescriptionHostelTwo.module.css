@@ -3,19 +3,32 @@
 }
 
 .description__hostel__two__container{
-    background-color: rgba(227, 216, 216, 0.878);
+    background-color: rgba(16, 98, 28, 0.746);
     width: 75rem;
     height: 33rem;
     border-radius: 10px;
     position: absolute;
     right: 10rem;
-    top:60rem;
+    top:92rem;
+    animation: myAnim 3.6s ease-in 0s 1 normal forwards;
 }
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
 
 .card__picture__about__two{
     display: flex;
     flex-direction: row;
     margin:1rem;
+
 }
 
 .card__picture__about__two .img__apoio__about__description{
@@ -25,6 +38,8 @@
     position: absolute;
     left: 2rem;
     top:-3rem;
+    border: 2.3px white solid;
+    padding: 0.5rem;
 }
 
 .card__picture__about__two .img__apoio__about__description__dois{
@@ -34,6 +49,8 @@
     position: absolute;
     left: 28rem;
     top:-3rem;
+    border: 2.3px white solid;
+    padding: 0.5rem;
 }
 
 .card__picture__about__two .img__apoio__about__description__tres{
@@ -43,13 +60,15 @@
     position: absolute;
     left: 54rem;
     top:-3rem;
+    border: 2.3px white solid;
+    padding: 0.5rem;
 }
 
 .description__hostel__two__container p{
     color: rgba(76, 33, 33, 0.887);
     letter-spacing: 2px;
     line-height: 36px;
-    font-size: 22px;
+    font-size: 19px;
     margin: 2rem;
     text-align: center;
     margin-top: 17rem;

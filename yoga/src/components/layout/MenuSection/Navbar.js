@@ -38,11 +38,11 @@ function Navbar() {
 
                           <li className={styles.item}><Link to='/contact'>Contato</Link></li>
 
-                          <li className={styles.btn_navbar}><a>Reservar</a></li>
+                          <li className={styles.btn_navbar}><a>Reservar agora</a></li>
 
                          
                           
-                      
+
 
                     </ul>
 

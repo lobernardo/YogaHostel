@@ -1,17 +1,14 @@
 import styles from './HomeOne.module.css'
 import 'animate.css'
-import yhlogo2 from '../../assets/yhlogo2.png'
-import Button from '../../layout/ButtonSection/Button'
+import logoohm from '../../assets/logoohm.png'
+
 
 function HomeOne (){
     return(
 
     <div className={styles.home__section__one}>
-        <img className={styles.logo__banner} src={yhlogo2}/>
-        
-        <Button />
-        
-        
+        <img className={styles.logo__banner} src={logoohm}/>
+      
     </div>
 
     )
