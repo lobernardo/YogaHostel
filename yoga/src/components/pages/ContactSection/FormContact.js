@@ -1,42 +1,50 @@
+import Button from '../../layout/ButtonSection/Button';
 import styles from './FormContact.module.css'
 
-import SubmitButton from '../ContactSection/SubmitButton'
-
-function FormContact() {
-
-    return(
-
-        <div className={styles.form__container}>
-            
-
-                    <input 
-                        className={styles.input_sec}
-                        type="text" 
-                        name="Seu nome"
-                        placeholder="Qual o seu nome?" 
-                        required
-                    />
-
-                    <input 
-                         type="text" 
-                         className={styles.input_sec}
-                         name="Seu melhor email"
-                         placeholder="Digite o seu melhor email" 
-                         required
-                    />  
-
-                <textarea className={styles.input_sec} name="Textarea" placeholder="Digite aqui a sua mensagem" cols="50" rows="8" minlength="3" maxlength="500" required></textarea>
-
-            <SubmitButton 
-            className={styles.btn_ctt}
-            text="Enviar"
-            />
+import React, { useState } from 'react';
 
 
-            
-        </div>
-    )
+
+function FormContact(props) {
+  // Use o hook useState para gerenciar o estado dos inputs do formulário
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  // Função para lidar com o envio do formulário
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log(name, email, message);
+    // aqui você pode enviar os dados para o servidor, limpar o formulário, etc.
+  };
+
+  return (
+
+    <div className={styles.contact__container}>
+
+    <form className={styles.form} onSubmit={handleSubmit}>
+      <label className={styles.label}>
+        Nome:
+        <input className={styles.input} type="text" value={name} onChange={(e) => setName(e.target.value)} />
+      </label>
+      <br />
+      <label className={styles.label}>
+        Email:
+        <input className={styles.input} type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+      </label>
+      <br />
+      <label className={styles.label}>
+        Mensagem:
+        <textarea className={styles.txtarea} value={message} onChange={(e) => setMessage(e.target.value)} />
+      </label>
+      <br />
+      
+      <Button
+      titulo="Enviar" />
+     
+    </form>
+    </div>
+  );
 }
 
-
-export default FormContact
+export default FormContact;
