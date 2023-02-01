@@ -39,8 +39,9 @@ function FormContact(props) {
       </label>
       <br />
       
+      <div className={styles.btn_form}>
       <Button
-      titulo="Enviar" />
+      titulo="Enviar" /></div>
      
     </form>
     </div>

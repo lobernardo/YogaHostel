@@ -1,0 +1,29 @@
+.carousel__image img{
+    border-radius: 35px;
+    height: 460px;
+    border: 2px solid white;
+    padding: 1rem;
+}
+
+.btn_back_home  {
+    position: absolute;
+    left: 13rem;
+    width: 90px;
+    height: 20px;
+}
+
+.btn_next_home  {
+    position: absolute;
+    left: 19rem;
+    width: 90px;
+    height: 20px;
+}
+
+.carousel__image button{
+    position: absolute;
+    top: 25rem;
+    font-size: 0.6rem;
+    color:white;
+    background-color: rgba(181, 177, 171, 0.448);
+}
+

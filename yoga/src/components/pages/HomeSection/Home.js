@@ -4,6 +4,7 @@ import styles from './Home.module.css'
 
 import HomeOne from './HomeOne'
 import HomeTwo from './HomeTwo'
+import Localization from './Localization'
 
 
 
@@ -14,6 +15,7 @@ function Home() {
             <HomeOne />
             <Button titulo="contato"/>
             <HomeTwo />
+            <Localization />
 
 </section>
 
