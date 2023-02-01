@@ -12,7 +12,7 @@ function Home() {
 <section className={styles.home__section} id='home'>
 
             <HomeOne />
-            <Button />
+            <Button titulo="contato"/>
             <HomeTwo />
 
 </section>

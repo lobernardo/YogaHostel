@@ -1,0 +1,36 @@
+.chale__container{
+    width: 100%;
+    height: 55vh;
+    background-color: rgba(223, 220, 220, 0.881);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 3rem;
+}
+
+.chale__container h2{
+    margin: 0rem ;
+    letter-spacing: 5px;
+    font-size: 2rem;
+    color: rgb(53, 29, 13);
+}
+
+.chale__container .img__chale{
+    
+}
+
+.text_chale{
+    width: 60%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin:3rem;
+}
+
+.text_chale p{
+    letter-spacing: 3px;
+    text-align: start;
+    margin:1rem;
+}

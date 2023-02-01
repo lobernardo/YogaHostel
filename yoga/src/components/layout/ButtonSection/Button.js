@@ -1,12 +1,11 @@
 import styles from './Button.module.css'
 
 
-function Button() {
+function Button(props) {
     return(
 
-        <a href=''><button className={styles.btn} type="button" name="myButton" autofocus>
-	    Reservar
-        </button></a>
+        <button type="button" name="myButton" autofocus><a href=''>{props.titulo}</a>
+        </button>
     )
 }
 

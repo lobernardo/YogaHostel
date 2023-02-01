@@ -1,4 +1,4 @@
-.btn{
+button{
     width: 130px;
     height: 40px;
     padding: 0.3rem;
@@ -6,6 +6,9 @@
     border-radius: 5px;
     background-color: transparent;
     cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
     animation: myAnim_logobanner 5s ease 0s 1 normal forwards;
 }
 
@@ -20,15 +23,18 @@
 }
 
 
-button{
-    color:rgb(255, 255, 255);
-    font-size: 1rem;
-    font-weight: bold;
-    cursor: pointer;
-}
 
 button:hover{
     cursor: pointer;
     background-color: rgb(138, 131, 4);
+}
+
+button a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+button a:hover{
+    cursor: pointer;
 }
 
