@@ -1,10 +1,10 @@
 import {Link} from 'react-router-dom'
-import logonav from '../../assets/logonav.png'
+
 
 
 
 import styles from './Navbar.module.css'
-import Button from '../ButtonSection/Button'
+
 
 function Navbar() {
     return(
@@ -39,7 +39,7 @@ function Navbar() {
 
                           <li className={styles.item}><Link to='/contact'>Contato</Link></li>
 
-                          <li className={styles.btn_navbar}><a>Reservar agora</a></li>
+                          <li className={styles.btn_navbar}><a>Reservar</a></li>
 
                          
                           
