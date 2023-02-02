@@ -1,7 +1,7 @@
 .home__section__one{
     width: 100%;
     height: 100vh;
-    background-image: url('../../assets/bannerteste.png');
+    background-image: url('https://i.pinimg.com/originals/43/dd/17/43dd17d154e5d25f6b23d7ceb54d7585.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     background-position: 30%;
@@ -44,9 +44,10 @@
 
 .logo__banner{
     border-radius: 60px;
-    width: 17rem;
-    height: 17rem;
-    border-radius: 220px;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100px;
+	padding: 1.5rem;
     position: absolute;
     top:13rem;
 	background-color: rgba(143, 134, 36, 0.756);
@@ -63,11 +64,7 @@
 	}
 }
 
-Button{
-	position: absolute;
-	top:28rem;
-	left: 44rem;
-}
+
 
 .animation__txt__home{
     animation: animate__slideInDown;
@@ -118,3 +115,4 @@ Button{
 		transform: translateY(0px);
 	}
 }
+

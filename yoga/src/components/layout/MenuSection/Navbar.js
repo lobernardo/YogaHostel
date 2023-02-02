@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom'
-import logo2 from '../../assets/logo2.png'
-import placa from '../../assets/placa.png'
+import logonav from '../../assets/logonav.png'
+
 
 
 import styles from './Navbar.module.css'
@@ -15,7 +15,8 @@ function Navbar() {
                   
                 
                 <div className={styles.txt__home}>
-                <h1><span>Trindade</span> sea and forest <span>Yoga Hostel</span></h1>
+                <h1><span>Yoga</span> life <span>centro holístico</span></h1>
+                
               
                 </div>
                 

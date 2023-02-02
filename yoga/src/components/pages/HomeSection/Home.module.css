@@ -1,15 +1,17 @@
 .home__section{
     width: 100%;
-    height: 330vh;
+    height: 430vh;
 }
 
 .home__section Button{
     position: absolute;
-    top:33rem;
+    top:30rem;
+    left: 43.5rem;
     text-transform: uppercase;
 }
 
 .home__section Button:hover{
     background-color: rgb(138, 131, 4);
 }
+
 

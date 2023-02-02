@@ -98,11 +98,11 @@
 }
 
 
-.logo2{
-    width: 10rem;
-    margin-top: 46px;
+.logo__nav{
+    width: 13rem;
+    margin-top: 40px;
     padding: 6px;
-    margin-left: 6rem;
+    margin-left: 1rem;
     z-index: 2;
     border-radius: 40px;
     filter:contrast(1.6)
@@ -136,3 +136,5 @@
     background-color: rgb(138, 131, 4);
     cursor: pointer;
 }
+
+

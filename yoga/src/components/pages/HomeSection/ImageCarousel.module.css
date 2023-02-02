@@ -5,25 +5,25 @@
     padding: 1rem;
 }
 
-.btn_back_home  {
+.btn_back_home button{
     position: absolute;
     left: 13rem;
     width: 90px;
-    height: 20px;
+    height: 10px;
 }
 
-.btn_next_home  {
+.btn_next_home button {
     position: absolute;
-    left: 19rem;
+    left: 0rem;
     width: 90px;
-    height: 20px;
+    height: 10px;
 }
 
 .carousel__image button{
     position: absolute;
-    top: 25rem;
+    top: 13rem;
     font-size: 0.6rem;
     color:white;
-    background-color: rgba(181, 177, 171, 0.448);
+    background-color: rgba(178, 193, 12, 0.448);
 }
 

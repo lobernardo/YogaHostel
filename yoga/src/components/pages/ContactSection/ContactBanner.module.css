@@ -1,8 +1,8 @@
-.about__banner__container{
+.contact__banner__container{
     width: 100%;
     height: 70vh;
     background-color: rgb(0, 0, 0);
-    background-image: url('https://i.pinimg.com/originals/dc/81/8e/dc818e670f573e1016cd7556c880a14e.jpg');
+    background-image: url('https://i.pinimg.com/originals/a6/53/9a/a6539a2b2d4498f7192cdf13f0775b7e.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(0.3);
@@ -25,7 +25,7 @@
 
 }
 
-.about__banner__container h1{
+.contact__banner__container h1{
     z-index: 3;
     color:white;
     font-size: 5rem;
@@ -47,7 +47,7 @@
 	}
 }
 
-.about__banner__container h1 span{
+.contact__banner__container h1 span{
     font-size: 6rem;
     text-transform: lowercase;
 }

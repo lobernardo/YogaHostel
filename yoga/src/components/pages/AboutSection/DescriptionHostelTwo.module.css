@@ -3,7 +3,7 @@
 }
 
 .description__hostel__two__container{
-    background-color: rgba(16, 98, 28, 0.746);
+    background-color: rgba(68, 72, 15, 0.787);
     width: 75rem;
     height: 33rem;
     border-radius: 10px;
@@ -65,7 +65,7 @@
 }
 
 .description__hostel__two__container p{
-    color: rgba(76, 33, 33, 0.887);
+    color: rgba(255, 255, 255, 0.887);
     letter-spacing: 2px;
     line-height: 36px;
     font-size: 19px;
