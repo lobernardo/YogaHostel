@@ -6,13 +6,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(0.3);
-    animation: myAnim_bannerabout 8s ease-in-out 0s 1 normal forwards;
+    animation: myAnim_bannerhome 5s ease-in-out 0s 1 normal forwards;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-@keyframes myAnim_banner {
+@keyframes myAnim_bannerhome {
 	0% {
 		background-position: right center;
 		background-size: 100%;

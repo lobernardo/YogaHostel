@@ -1,5 +1,5 @@
 import Button from '../../layout/ButtonSection/Button'
-import Client from './Client'
+import Testimonials from './Testimonials'
 import styles from './Home.module.css'
 
 
@@ -16,7 +16,7 @@ function Home() {
             <HomeOne />
             <Button titulo="contato"/>
             <HomeTwo />
-            <Client />
+            <Testimonials />
             <Localization />
 
 </section>

@@ -5,26 +5,14 @@
     padding: 1rem;
 }
 
-.btn_back_home button{
-    position: absolute;
-    left: 13rem;
-    width: 90px;
-    height: 10px;
-}
-
-.btn_next_home button {
-    position: absolute;
-    left: 0rem;
-    width: 90px;
-    height: 10px;
-}
 
 .carousel__image button{
     position: absolute;
-    top: 13rem;
+    top: 24rem;
+    left: 14rem;
     font-size: 0.6rem;
     color:white;
-    background-color: rgba(178, 193, 12, 0.448);
+    background-color: rgba(8, 8, 7, 0.448);
 }
 
 
@@ -45,7 +33,7 @@
     
     .btn_next_home button {
         position: absolute;
-        left: 19rem;
+        left: 29rem;
         width: 90px;
         height: 10px;
     }
@@ -53,7 +41,7 @@
     .carousel__image button{
         position: absolute;
         top: 10rem;
-        left: 7.9rem;
+        left: 8.9rem;
         font-size: 0.6rem;
         color:white;
         background-color: rgba(178, 193, 12, 0.448);

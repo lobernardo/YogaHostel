@@ -1,8 +1,26 @@
 .map__container{
     width: 100%;
     height: 100vh;
-    background-color: rgb(134, 131, 131);
-    background-image: url('https://www.ilhacomprida.sp.leg.br/imagens/sitecmic/pagina_em_construcao2.png/image');
+    background-color: rgb(201, 194, 194);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.map__container h1{
+    color: white;
+    font-size: 2.7rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 3rem;
+}
+
+.map__section{
+    background-image: url('https://wallpapercave.com/wp/wp4313180.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    width: 80%;
+    height: 60%;  
+    margin:1rem;
 }
