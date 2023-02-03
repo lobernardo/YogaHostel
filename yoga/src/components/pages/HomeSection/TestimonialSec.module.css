@@ -22,12 +22,15 @@
     background-color: rgba(128, 128, 128, 0.446);
     width: 90%;
     height: 30%;
-    padding: 1rem;
     border-radius: 5px;
-    color: white;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.card__unity p{
+    color:white;
 }
 
 .card__unity h2{

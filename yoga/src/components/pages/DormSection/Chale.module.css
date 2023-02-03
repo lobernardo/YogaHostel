@@ -4,33 +4,41 @@
     background-color: rgba(223, 220, 220, 0.881);
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 3rem;
+    margin-top: 3rem;
+    padding:14rem;
 }
 
+
+
 .chale__container h2{
-    margin: 0rem ;
     letter-spacing: 5px;
     font-size: 2rem;
     color: rgb(53, 29, 13);
 }
 
 .chale__container .img__chale{
-    
+    border-radius: 200px;
+    border: 2px solid rgba(49, 31, 11, 0.679);
+    padding: 1rem;
+    width:540px;
+    margin-right: 2rem;
 }
 
-.text_chale{
-    width: 60%;
-    height: 45vh;
+.text_chale{ 
+    background-color: rgba(209, 199, 199, 0.657);
+    border-radius: 10px;
+    height: 21rem;
     display: flex;
+    justify-content: space-evenly;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: flex-start;
-    margin:3rem;
+    padding: 1rem;
 }
 
 .text_chale p{
-    letter-spacing: 3px;
     text-align: start;
-    margin:1rem;
 }
+

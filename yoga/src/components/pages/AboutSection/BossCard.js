@@ -10,16 +10,19 @@ function BossCard (){
 
 
             <div className={styles.boss__geral}>
-            <div className={styles.card__container__about}>
-              <img className={styles.card_um} src={osmar}/>
-              <img className={styles.card_dois} src={matilde}/>
+                
+                    <div className={styles.card__container__about}>
+                    <img className={styles.card_um} src={osmar}/>
+                    <img className={styles.card_dois} src={matilde}/>
+                    </div>
+
+                    <div className={styles.about__container__description}>
+                        <h2 className={styles.osmar}>Osmar</h2>
+                        <h2 className={styles.matilde}>Matilde</h2>
+                    </div>
+
             </div>
 
-            <div className={styles.about__container__description}>
-                <h2 className={styles.osmar}>Osmar</h2>
-                <h2 className={styles.matilde}>Matilde</h2>
-            </div>
-            </div>
 
         </div>
     )

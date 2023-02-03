@@ -5,6 +5,8 @@ import Button from '../../layout/ButtonSection/Button'
 function Chale(props) {
     return(
         <section className={styles.chale__container}>
+
+        
             
             <img className={styles.img__chale} src={props.image}/>
 

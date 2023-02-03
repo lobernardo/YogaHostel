@@ -8,7 +8,8 @@ function TestimonialSec(props) {
                     <div className={styles.card__unity}>
                         <img src={props.img}/>
                         <h2>{props.nameclient}</h2>
-                        <p className={styles.depoiment}>{props.testimonial}</p>
+                        <div className={styles.depoiment}>
+                        <p>{props.testimonial}</p></div>
                     </div>
                 </div>
     )
