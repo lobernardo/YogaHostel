@@ -1,7 +1,7 @@
 .carousel__home{
     position: absolute;
-    left: -6rem;
-    top:13rem;
+    left: -3rem;
+    top:16rem;
 }
 
 @media screen and (min-width:320px) and (max-width:589px){
