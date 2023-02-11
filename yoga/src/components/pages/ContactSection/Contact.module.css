@@ -1,13 +1,22 @@
 .contact__container{
     width: 100%;
-    height: 100vh;
-    background-color: white;
-
-}
-
-
-
-.pic_contact{
+    height: 100%;
+    background-color: rgba(217, 213, 207, 0.692);
+    animation: myAnim_logobanner 3s ease 0s 1 normal forwards;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
+    text-align: center;
+
 }
+
+@keyframes myAnim_logobanner {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+

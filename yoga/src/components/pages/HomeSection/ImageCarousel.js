@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import styles from './ImageCarousel.module.css'
 
+
+
+
+
 const ImageCarousel = ({ images }) => {
   const [index, setIndex] = useState(0);
 
@@ -14,9 +18,8 @@ const ImageCarousel = ({ images }) => {
 
   return (
     <div className={styles.carousel__image}>
-      <button className={styles.btn_back_home} onClick={handlePrevious}>Próxima</button>
       <img src={images[index]} alt="img-carousel" />
-      <button className={styles.btn_next_home} onClick={handleNext}>Anterior</button>
+      <button className={styles.btn_change} onClick={handleNext}>Próxima foto</button>
     </div>
   );
 };

@@ -20,7 +20,7 @@ function FormContact(props) {
 
   return (
 
-    <div className={styles.contact__container}>
+    <div className={styles.formcontact__container}>
 
     <form className={styles.form} onSubmit={handleSubmit}>
       <label className={styles.label}>

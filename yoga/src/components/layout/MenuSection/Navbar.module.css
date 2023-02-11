@@ -1,4 +1,6 @@
 
+@media screen and (min-width: 610px){
+
 .menu__section{
     width: 100%;
     display: flex;
@@ -98,11 +100,11 @@
 }
 
 
-.logo2{
-    width: 10rem;
-    margin-top: 46px;
+.logo__nav{
+    width: 13rem;
+    margin-top: 40px;
     padding: 6px;
-    margin-left: 6rem;
+    margin-left: 1rem;
     z-index: 2;
     border-radius: 40px;
     filter:contrast(1.6)
@@ -135,4 +137,58 @@
 .btn_navbar:hover{
     background-color: rgb(138, 131, 4);
     cursor: pointer;
+}
+
+.logo__mobile{
+    display:none ;
+}
+
+.section__mobile__div{
+    display: none;
+}
+}
+
+@media (min-width: 320px) and (max-width: 600px){
+
+    .menu__section{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:  center ;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .section__mobile__div{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin: 1rem;
+        background-color: transparent;
+    
+    }
+
+    .section__mobile__div:hover{
+
+        background-color: transparent;
+    
+    }
+
+    .txt__home{
+        display: none;
+    }
+
+    .logo__mobile{
+        width: 80px;
+        border-radius: 200px;
+        background-color: rgba(143, 134, 36, 0.756);
+        position: absolute;
+        left: 2rem;
+        
+    }
+
+
 }

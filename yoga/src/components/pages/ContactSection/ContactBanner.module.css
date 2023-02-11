@@ -1,16 +1,18 @@
-.dorm__banner{
+.contact__banner__container{
     width: 100%;
     height: 70vh;
     background-color: rgb(0, 0, 0);
-    background-image: url('https://i.pinimg.com/originals/dc/81/8e/dc818e670f573e1016cd7556c880a14e.jpg');
+    background-image: url('https://cdn.wallpapersafari.com/35/79/qFO4kw.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 80%;
+    filter: grayscale(0.3);
     animation: myAnim_bannerabout 8s ease-in-out 0s 1 normal forwards;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
 
 @keyframes myAnim_bannerabout {
 	0% {
@@ -19,13 +21,13 @@
 	}
 
 	100% {
-		background-position: right center;
+		background-position: right end;
 		background-size: 120%;
 	}
 
 }
 
-.dorm__banner h1{
+.contact__banner__container h1{
     z-index: 3;
     color:white;
     font-size: 5rem;
@@ -47,7 +49,7 @@
 	}
 }
 
-.dorm__banner h1 span{
+.contact__banner__container h1 span{
     font-size: 6rem;
     text-transform: lowercase;
 }

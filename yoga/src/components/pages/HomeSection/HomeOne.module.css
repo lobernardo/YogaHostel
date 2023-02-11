@@ -1,21 +1,18 @@
 .home__section__one{
+	background-image: url('https://i.pinimg.com/originals/43/dd/17/43dd17d154e5d25f6b23d7ceb54d7585.jpg');
     width: 100%;
     height: 100vh;
-    background-image: url('../../assets/bannerteste.png');
+    background-color: rgb(0, 0, 0);
     background-repeat: no-repeat;
-    background-size:cover;
-    background-position: 30%;
-    filter:contrast(1.2);
+    background-size: cover;
+    filter: grayscale(0.3);
+    animation: myAnim_bannerhome 5s ease-in-out 0s 1 normal forwards;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    z-index: -2;
-    animation: myAnim_banner 8s ease-in-out 0s 1 normal forwards;
-
 }
 
-@keyframes myAnim_banner {
+@keyframes myAnim_bannerhome {
 	0% {
 		background-position: right center;
 		background-size: 100%;
@@ -40,13 +37,15 @@
     color:rgb(36, 36, 35);
     text-decoration: none;  
     cursor: pointer;
+	text-decoration: none;
 }
 
 .logo__banner{
     border-radius: 60px;
-    width: 17rem;
-    height: 17rem;
-    border-radius: 220px;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100px;
+	padding: 1.5rem;
     position: absolute;
     top:13rem;
 	background-color: rgba(143, 134, 36, 0.756);
@@ -63,15 +62,8 @@
 	}
 }
 
-Button{
-	position: absolute;
-	top:28rem;
-	left: 44rem;
-}
 
-.animation__txt__home{
-    animation: animate__slideInDown;
-}
+
 
 @keyframes myAnim {
 	0% {
@@ -118,3 +110,9 @@ Button{
 		transform: translateY(0px);
 	}
 }
+
+@media (min-width: 320px) and (max-width: 600px){
+	
+}
+
+

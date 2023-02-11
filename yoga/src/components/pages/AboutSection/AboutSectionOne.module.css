@@ -1,0 +1,7 @@
+.aboutsecone__container{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: space-evenly;
+	background-color: rgba(241, 239, 239, 0.837);
+}

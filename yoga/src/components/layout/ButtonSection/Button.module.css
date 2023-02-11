@@ -9,6 +9,7 @@ button{
     font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
+    text-decoration: none;
     animation: myAnim_logobanner 5s ease 0s 1 normal forwards;
 }
 
@@ -24,17 +25,19 @@ button{
 
 
 
-button:hover{
+.btn_menu button:hover{
     cursor: pointer;
     background-color: rgb(138, 131, 4);
+    text-decoration: none;
 }
 
-button a{
+.btn_menu button a{
     text-decoration: none;
     color:rgb(255, 255, 255);
 }
 
-button a:hover{
+.btn_menu button a:hover{
     cursor: pointer;
+    text-decoration: none;
 }
 
