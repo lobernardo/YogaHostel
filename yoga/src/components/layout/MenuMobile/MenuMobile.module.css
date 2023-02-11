@@ -34,3 +34,7 @@
     font-size: 1.1rem;
     transition: 0.5s;
 }
+
+@media (min-width: 320px) and (max-width: 600px) {
+   
+   }
