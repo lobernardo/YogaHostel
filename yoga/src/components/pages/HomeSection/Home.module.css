@@ -5,8 +5,7 @@
 
 .home__section Button{
     position: absolute;
-    top:30rem;
-    left: 43.5rem;
+    top:33rem;
     text-transform: uppercase;
     text-decoration: none;
     
@@ -19,13 +18,5 @@
 
 .home__section Button:hover{
     background-color: rgb(138, 131, 4);
-    text-decoration: none;
 }
 
-
-@media (min-width: 320px) and (max-width: 600px){
-    .home__section Button{
-       display: none;
-        
-    }
-}
