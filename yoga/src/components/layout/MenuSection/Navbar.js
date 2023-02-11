@@ -48,12 +48,13 @@ function Navbar() {
                     </ul>
 
              </nav>
-             
-             <div className={styles.section__mobile__div}>
 
-                <img className={styles.logo__mobile} src={logohome}/>
-                <div className={styles.section__mobile__logo_menu}> <ButtonMobile /></div>
-             </div>
+        
+                    <div className={styles.section__mobile__logo_menu}> <ButtonMobile /></div>
+            
+             
+             
+
 
              </section>
 
