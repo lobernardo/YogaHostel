@@ -16,7 +16,7 @@
 .chale__container h2{
     letter-spacing: 5px;
     font-size: 2rem;
-    color: rgb(53, 29, 13);
+    color: rgb(87, 45, 17);
 }
 
 .chale__container .img__chale{
@@ -28,7 +28,7 @@
 }
 
 .text_chale{ 
-    background-color: rgba(209, 199, 199, 0.657);
+    background-color: rgba(59, 50, 50, 0.657);
     border-radius: 10px;
     height: 21rem;
     display: flex;
@@ -40,5 +40,16 @@
 
 .text_chale p{
     text-align: start;
+    color: rgb(226, 223, 221);
 }
 
+.text_chale button a{
+    text-decoration: none;
+    color:white;
+}
+
+.text_chale button:hover{
+    text-decoration: none;
+    background-color: rgb(154, 132, 10);
+    transition: 0.4s;
+}

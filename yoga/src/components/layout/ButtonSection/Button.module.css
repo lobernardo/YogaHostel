@@ -9,6 +9,7 @@ button{
     font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
+    text-decoration: none;
     animation: myAnim_logobanner 5s ease 0s 1 normal forwards;
 }
 
