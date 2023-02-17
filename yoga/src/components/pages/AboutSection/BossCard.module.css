@@ -110,3 +110,60 @@
 		transform: translateY(0px);
 	}
 }
+
+@media screen and (min-width:320px) and (max-width:560px){
+	
+.boss__geral{
+	position: absolute;
+	top:33rem;
+	left: 0rem;
+}
+
+.card__container__about img{
+    width: 11rem;
+    height: 11rem;
+    border-radius: 10px;
+   
+    animation: myAnim 3s ease 0s 1 normal forwards;
+    cursor: pointer;
+}
+
+
+.card__container__about .card_um{
+    z-index: 1;
+	width: 11rem;
+    height: 11rem;
+}
+
+.card__container__about .card_dois{
+
+    width: 11rem;
+    height: 11rem;
+    z-index: 0;
+    animation: myAnim 2.5s ease 0s 1 normal forwards;
+}
+
+
+.about__container__description{
+    background-color: rgba(216, 214, 214, 0);
+    width: 12rem;
+    height: 13rem;
+
+
+}
+
+.about__container__description h2{
+    color:rgb(90, 64, 64);
+    letter-spacing: 2px;
+    font-size: 1.6rem;
+	
+}
+
+.about__container__description .osmar{
+
+}
+
+.about__container__description .matilde{
+
+}
+}

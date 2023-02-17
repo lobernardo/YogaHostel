@@ -45,5 +45,8 @@ button{
 @media (min-width: 320px) and (max-width: 600px){
     .btn_menu button{
         display: none;
+        list-style:none;
+        text-decoration: none;
+        border: none;
     }
 }

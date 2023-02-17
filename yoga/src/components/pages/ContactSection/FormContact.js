@@ -39,7 +39,7 @@ function FormContact(props) {
       </label>
       <br />
       
-      <div className={styles.btn_form}>
+      <div className={styles.btn_menu}>
       <Button
       titulo="Enviar" /></div>
      

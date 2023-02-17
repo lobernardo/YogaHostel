@@ -2,6 +2,7 @@ import {Link} from 'react-router-dom'
 import ButtonMobile from '../../layout/MenuMobile/ButtonMobile'
 
 import logohome from '../../assets/logohome.png'
+import logo_apoio from '../../assets/logo_apoio.png'
 
 
 
@@ -19,6 +20,8 @@ function Navbar() {
                 
                 <div className={styles.txt__home}>
                 <h1><span>Yoga</span> life <span>centro holístico</span></h1>
+
+               
                 
               
                 </div>
@@ -50,7 +53,9 @@ function Navbar() {
              </nav>
 
         
-                    <div className={styles.section__mobile__logo_menu}> <ButtonMobile /></div>
+                    <div className={styles.section__mobile__logo_menu}> 
+                    <img className={styles.logo__mob} src={logo_apoio}></img>
+                    <ButtonMobile /></div>
             
              
              

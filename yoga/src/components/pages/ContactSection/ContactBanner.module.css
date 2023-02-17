@@ -53,3 +53,20 @@
     font-size: 6rem;
     text-transform: lowercase;
 }
+
+
+@media screen and (min-width:320px) and (max-width:560px){
+    .contact__banner__container{
+        width: 100%;
+        height: 70vh;
+        background-color: rgb(0, 0, 0);
+        background-image: url('https://cdn.wallpapersafari.com/35/79/qFO4kw.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: grayscale(0.3);
+        animation: myAnim_bannerabout_mob 8s ease-in-out 0s 1 normal forwards;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+}

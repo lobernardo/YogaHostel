@@ -156,6 +156,10 @@
     display: none;
 }
 
+.logo__mob{
+
+}
+
 
 @media (min-width: 320px) and (max-width: 700px) {
 
@@ -164,6 +168,8 @@
         display: none;
         height: 10vh;
       }
+
+
       
         header button {
           display: block;
@@ -194,6 +200,11 @@
         background-color: transparent;
         cursor: pointer;
         transition: 0.4s;
+    }
+
+    .logo__mob{
+        width: 3.3rem;
+        margin-left: 1.3rem;
     }
 
 
