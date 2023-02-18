@@ -3,6 +3,7 @@ import ContactBanner from './ContactBanner'
 import FormContact from './FormContact'
 
 
+
 function Contact() {
     return(
 
@@ -11,6 +12,7 @@ function Contact() {
         <ContactBanner />
             
         <FormContact />
+        
 
 
         </section>

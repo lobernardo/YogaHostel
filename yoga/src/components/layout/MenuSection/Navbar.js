@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom'
 import ButtonMobile from '../../layout/MenuMobile/ButtonMobile'
+import Button from '../ButtonSection/Button'
 
 import logohome from '../../assets/logohome.png'
 import logo_apoio from '../../assets/logo_apoio.png'
@@ -19,7 +20,7 @@ function Navbar() {
                   
                 
                 <div className={styles.txt__home}>
-                <h1><span>Yoga</span> life <span>centro holístico</span></h1>
+                <img className={styles.logo__mob} src={logo_apoio}></img>
 
                
                 
@@ -45,7 +46,9 @@ function Navbar() {
 
                           <li className={styles.item}><Link to='/contact'>Contato</Link></li>
 
-                          <li className={styles.btn_navbar}><a>Reservar</a></li>
+                          <Button
+                          title="Reservar"
+                          adress="" />
 
 
                     </ul>

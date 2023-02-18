@@ -1,11 +1,14 @@
 .description__hostel__container{
-    background-color: rgba(65, 56, 26, 0.727);
+    background-color: rgba(142, 113, 17, 0.727);
     width: 35rem;
     height: 33rem;
     border-radius: 10px;
     position: absolute;
     right: 10rem;
     top:44rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     animation: myAnim 2.5s ease-in 0s 1 normal forwards;
 }
 

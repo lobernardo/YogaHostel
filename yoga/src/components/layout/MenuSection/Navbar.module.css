@@ -15,7 +15,7 @@
 
 .menu__section:hover{
     background-color: rgba(242, 240, 237, 0.905);
-    cursor: pointer;
+
     transition: 0.4s;
 }
 
@@ -34,6 +34,25 @@
     align-items: center;
     justify-content: center;
     z-index: 2;
+}
+
+.list Button{
+    width: 100px;
+    margin-left: 2rem;
+    background-color: rgb(229, 229, 15);
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+.list Button a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(36, 28, 28);
+}
+
+.list Button:hover{
+    transition: 0.9s;
+    scale: 1.1;
 }
 
 .item{
@@ -115,34 +134,6 @@
     filter:contrast(1.6)
 }
 
-.btn_navbar{
-    width: 120px;
-    height: 40px;
-    margin-left: 1rem;
-    background-color: yellow;
-    border: none;
-    border-radius: 3px;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.btn_navbar a{
-    font-weight: 400;
-    color: rgb(60, 32, 32);
-    
-}
-
-.btn_navbar a:hover{
-    cursor: pointer;
-    transform: 1s;
-}   
-
-.btn_navbar:hover{
-    background-color: rgb(138, 131, 4);
-    cursor: pointer;
-}
 
 .logo__mobile{
     display:none ;
@@ -157,7 +148,9 @@
 }
 
 .logo__mob{
-
+    width: 8rem;
+        margin-left: 0.5rem;
+        margin-top: 5rem;
 }
 
 

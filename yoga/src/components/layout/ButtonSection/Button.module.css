@@ -1,8 +1,8 @@
 button{
-    width: 130px;
+    width: 120px;
     height: 40px;
     padding: 0.3rem;
-    border: 1.5px solid rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 5px;
     background-color: transparent;
     cursor: pointer;
@@ -24,16 +24,22 @@ button{
 }
 
 
+Button a{
+    text-decoration: none;
+    list-style: none;
+}
 
 .btn_menu button:hover{
     cursor: pointer;
-    background-color: rgb(138, 131, 4);
+    background-color: rgb(58, 55, 10);
     text-decoration: none;
+    border:none;
 }
 
 .btn_menu button a{
     text-decoration: none;
     color:rgb(255, 255, 255);
+    border:none;
 }
 
 .btn_menu button a:hover{

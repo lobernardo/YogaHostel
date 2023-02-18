@@ -1,4 +1,5 @@
 import Button from '../../layout/ButtonSection/Button';
+import CardSocial from './CardSocial';
 import styles from './FormContact.module.css'
 
 import React, { useState } from 'react';
@@ -19,6 +20,8 @@ function FormContact(props) {
   };
 
   return (
+
+    <div className={styles.form_conteiner_geral}>
 
     <div className={styles.formcontact__container}>
 
@@ -41,9 +44,13 @@ function FormContact(props) {
       
       <div className={styles.btn_menu}>
       <Button
-      titulo="Enviar" /></div>
+      title="Enviar"
+      adress="" /></div>
      
     </form>
+    
+    </div>
+    <CardSocial />
     </div>
   );
 }

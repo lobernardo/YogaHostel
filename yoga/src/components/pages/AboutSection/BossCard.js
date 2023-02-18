@@ -1,6 +1,6 @@
 import styles from  './BossCard.module.css'
-import matilde from '../../assets/matilde.png'
-import osmar from '../../assets/osmar.png'
+import woman_ia from '../../assets/woman_ia.png'
+import men_ia from '../../assets/men_ia.png'
 
 import 'animate.css'
 
@@ -12,13 +12,13 @@ function BossCard (){
             <div className={styles.boss__geral}>
                 
                     <div className={styles.card__container__about}>
-                    <img className={styles.card_um} src={osmar}/>
-                    <img className={styles.card_dois} src={matilde}/>
+                    <img className={styles.card_um} src={men_ia}/>
+                    <img className={styles.card_dois} src={woman_ia}/>
                     </div>
 
                     <div className={styles.about__container__description}>
-                        <h2 className={styles.osmar}>Osmar</h2>
-                        <h2 className={styles.matilde}>Matilde</h2>
+                        <h2 className={styles.osmar}>Carlos Santos</h2>
+                        <h2 className={styles.matilde}>Rosana Soares</h2>
                     </div>
 
             </div>
