@@ -19,7 +19,7 @@ function Home() {
             adress="" />
             <HomeTwo />
             <Testimonials />
-            <ComoChegar />
+            <Localization />
 
 </section>
 
