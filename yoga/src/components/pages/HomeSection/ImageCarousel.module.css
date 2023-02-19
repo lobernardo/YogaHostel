@@ -1,7 +1,7 @@
 .carousel__image img{
     border-radius: 35px;
     height: 460px;
-    border: 2px solid white;
+    border: 2px solid rgb(181, 172, 14);
     padding: 1rem;
 }
 
