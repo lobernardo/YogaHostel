@@ -2,7 +2,7 @@ import styles from './About.module.css'
 import AboutBanner from './AboutBanner'
 import AboutSectionOne from './AboutSectionOne'
 import DescriptionHostelTwo from './DescriptionHostelTwo'
-import Yoga from './Yoga'
+
 
 
 
@@ -16,7 +16,7 @@ function About() {
             <AboutBanner />
             <AboutSectionOne />
             <DescriptionHostelTwo />
-            <Yoga />
+         
             
         </section>
 
