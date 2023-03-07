@@ -1,0 +1,15 @@
+.trindade_beach_container{
+    background-color: rgba(236, 236, 236, 0.39);
+    width: 100%;
+    height: 100vh;
+}
+
+.trindade_beach{
+    width: 60%;
+    height: 40vh;
+    background-color: rgb(168, 168, 168);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

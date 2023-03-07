@@ -2,7 +2,6 @@ import {Link} from 'react-router-dom'
 import ButtonMobile from '../../layout/MenuMobile/ButtonMobile'
 import Button from '../ButtonSection/Button'
 
-import logohome from '../../assets/logohome.png'
 import logo_apoio from '../../assets/logo_apoio.png'
 
 
@@ -20,20 +19,18 @@ function Navbar() {
                   
                 
                 <div className={styles.txt__home}>
-                <img className={styles.logo__mob} src={logo_apoio}></img>
-
-               
-                
-              
                 </div>
                 
 
                 <nav className={styles.navbar}>
+
+                    <div className={styles.txt_logo}>
+                        <h2>Yoga Hostel</h2>
+                        <p>Centro holístico</p>
+                    </div>
                     
                     <ul className={styles.list}>
                       
-                        
-
                           <li className={styles.item}><Link to='/'>Home</Link></li>
                         
                           <li className={styles.item}><Link to='/about'>Sobre</Link></li>

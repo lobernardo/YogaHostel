@@ -1,5 +1,54 @@
 .trindade_history__container{
     width: 100%;
     height: 100vh;
-    background-color: rgb(111, 85, 23);
+    background-color: rgb(234, 230, 223);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.history__container{
+    background-color: rgba(146, 126, 13, 0.808);
+    width: 60vw;
+    height: 40vh;
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-radius: 15px;
+    margin-left: 0rem;
+    padding:1rem;
+    
+
+}
+
+.history__container h2{
+    width: 100%;
+    font-size: 2rem;
+    color:rgb(251, 251, 251);
+    text-transform: lowercase;
+    letter-spacing: 2px;
+}
+
+.history__container p{
+    width: 150%;
+    font-size: 1rem;
+    color:rgb(0, 0, 0);
+    letter-spacing: 1px;
+    line-height: 1.6rem;
+    font-weight: 400;
+}
+
+
+.curiosity__container{
+    background-color: rgba(105, 104, 100, 0.808);
+    width: 60vw;
+    height: 40vh;
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-radius: 15px;
+    margin-left: 1rem;
+    padding:1rem;
 }

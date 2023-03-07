@@ -7,7 +7,7 @@ function TrindadePic() {
       
         <section className={styles.trindade_pic__container}>
 
-    
+        
             
         </section>
 

@@ -13,6 +13,7 @@ function Chale(props) {
             <div className={styles.text_chale}>
                 <h2>{props.titulo}</h2>
                 <p>{props.paragrafo}</p>
+                <p>R$195/dia</p>
                 <Button title="reservar"
                 adress="" />
             </div>

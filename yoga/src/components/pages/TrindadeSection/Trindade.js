@@ -2,6 +2,7 @@ import styles from './Trindade.module.css'
 import TrindadeBanner from './TrindadeBanner'
 import TrindadeHistory from './TrindadeHistory'
 import TrindadePic from './TrindadePic'
+import TrindadeBeach from './TrindadeBeach'
 
 
 function Trindade() {
@@ -11,6 +12,7 @@ function Trindade() {
 
         <TrindadeBanner />
         <TrindadeHistory />
+        <TrindadeBeach />
         <TrindadePic />
             
         </section>

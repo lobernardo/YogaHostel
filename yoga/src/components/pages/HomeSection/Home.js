@@ -14,9 +14,6 @@ function Home() {
 <section className={styles.home__section} id='home'>
 
             <HomeOne />
-            <Button
-            title="Contato"
-            adress="" />
             <HomeTwo />
             <Testimonials />
             <Localization />
