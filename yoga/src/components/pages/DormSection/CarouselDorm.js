@@ -1,6 +1,6 @@
 import React from 'react';
-import ImageCarousel from './ImageCarouselDorm';
-import styles from './CarouselHome.module.css'
+import ImageCarouselDorm from './ImageCarouselDorm';
+import styles from './CarouselDorm.module.css'
 
 const CarouselDorm = () => {
   const images = [
@@ -11,7 +11,7 @@ const CarouselDorm = () => {
 
   return (
     <div className={styles.carousel__dorm}>
-    <ImageCarousel images={images} />
+    <ImageCarouselDorm images={images} />
     </div>
   );
 };

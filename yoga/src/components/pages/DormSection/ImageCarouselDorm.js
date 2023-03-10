@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import styles from './ImageCarousel.module.css'
+import styles from './ImageCarouselDorm.module.css'
 
 
 
 
 
-const ImageCarousel = ({ images }) => {
+const ImageCarouselDorm = ({ images }) => {
   const [index, setIndex] = useState(0);
 
   const handlePrevious = () => {
@@ -17,11 +17,12 @@ const ImageCarousel = ({ images }) => {
   };
 
   return (
-    <div className={styles.carousel__image}>
+    <div className={styles.carousel__image_dorm}>
       <img src={images[index]} alt="img-carousel" />
-      <button className={styles.btn_change} onClick={handleNext}>Próxima foto</button>
+      <button className={styles.btn_change_dorm} onClick={handleNext}>Próx.</button>
+      <button className={styles.btn_change_dorm} onClick={handlePrevious}>Ant.</button>
     </div>
   );
 };
 
-export default ImageCarousel;
+export default ImageCarouselDorm;

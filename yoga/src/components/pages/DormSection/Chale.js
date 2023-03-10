@@ -1,5 +1,6 @@
 import styles from './Chale.module.css'
 import Button from '../../layout/ButtonSection/Button'
+import CarouselDorm from './CarouselDorm'
 
 
 function Chale(props) {
@@ -8,7 +9,7 @@ function Chale(props) {
 
         
             
-            <img className={styles.img__chale} src={props.image}/>
+            <CarouselDorm />
 
             <div className={styles.text_chale}>
                 <h2>{props.titulo}</h2>
