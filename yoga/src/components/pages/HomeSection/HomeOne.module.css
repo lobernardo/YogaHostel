@@ -25,24 +25,17 @@
 
 }
 
+
 .home__section__one img{
-    border-radius: 200px;
-    width: 10rem;
+    border-radius: 290px;
+    width: 13rem;
     margin-bottom: 2REM;
-    animation: myAnim_logohome 12s ease-in-out 0s 1 normal forwards;
+
+
 }
 
-@keyframes myAnim_logohome {
-	0% {
-		background-position: right center;
-		background-size: 100%;
-	}
-
-	100% {
-		background-position: right center;
-		background-size: 150%;
-	}
-
+.logo_home{
+    background-color: rgb(228, 228, 218);
 }
 
 .banner_home{

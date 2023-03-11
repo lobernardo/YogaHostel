@@ -7,10 +7,9 @@ import ImagesBeach from './ImagesBeach';
 function PhotoGrid () {
 
   const images = [
-    'https://www.transportal.com.br/noticias/wp-content/uploads/2019/02/Praia-do-meio-Praias-de-Trindade.jpg',
-    'https://www.essemundoenosso.com.br/wp-content/uploads/2020/03/praias-de-trindade-2-dest-740x463.jpg',
+    'https://www.passagenspromo.com.br/blog/wp-content/uploads/2020/12/praias-de-trindade-praia-do-cachadaco.jpg',
     'https://a.travel-assets.com/findyours-php/viewfinder/images/res70/262000/262559-Ilha-Grande-Bay.jpg',
-    'https://www.viagenscinematograficas.com.br/wp-content/uploads/2013/04/Trindade-Praia-do-Cachadaco-2.jpg'
+    'https://res.cloudinary.com/worldpackers/image/upload/c_limit,f_auto,q_auto,w_1140/pnf3pelynvf1jjh4t9r9'
   ];
 
   return (
