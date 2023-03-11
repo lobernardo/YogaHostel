@@ -1,0 +1,42 @@
+.carousel__image_beach{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.btn_change_dorm_left{
+    position: absolute;
+    left: 0rem;
+    top:0rem;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+
+
+
+.btn_change_dorm_right{
+    position: absolute;
+    right: 0rem;
+    top:0rem;
+    height: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+
+.btn_change_dorm_left:hover{
+    background-color: rgba(0, 0, 0, 0.479);
+}
+
+
+
+
+.btn_change_dorm_right:hover{
+    background-color: rgba(0, 0, 0, 0.479);
+}

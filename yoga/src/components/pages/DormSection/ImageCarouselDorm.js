@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import styles from './ImageCarouselDorm.module.css'
+import { FaChevronRight } from 'react-icons/fa';
+import { FaChevronLeft } from 'react-icons/fa';
+
 
 
 
@@ -19,8 +22,9 @@ const ImageCarouselDorm = ({ images }) => {
   return (
     <div className={styles.carousel__image_dorm}>
       <img src={images[index]} alt="img-carousel" />
-      <button className={styles.btn_change_dorm} onClick={handleNext}>Próx.</button>
-      <button className={styles.btn_change_dorm} onClick={handlePrevious}>Ant.</button>
+      <button className={styles.btn_change_dorm_left} onClick={handlePrevious}><FaChevronLeft /></button>
+      <button className={styles.btn_change_dorm_right} onClick={handleNext}><FaChevronRight /></button>
+
     </div>
   );
 };

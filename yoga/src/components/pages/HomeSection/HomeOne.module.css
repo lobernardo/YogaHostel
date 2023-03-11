@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 @keyframes myAnim_bannerhomehome {
@@ -24,6 +25,25 @@
 
 }
 
+.home__section__one img{
+    border-radius: 200px;
+    width: 10rem;
+    margin-bottom: 2REM;
+    animation: myAnim_logohome 12s ease-in-out 0s 1 normal forwards;
+}
+
+@keyframes myAnim_logohome {
+	0% {
+		background-position: right center;
+		background-size: 100%;
+	}
+
+	100% {
+		background-position: right center;
+		background-size: 150%;
+	}
+
+}
 
 .banner_home{
     width: 100%;
@@ -44,26 +64,9 @@
     cursor: pointer;
 }
 
-.logo__banner{
-    border-radius: 60px;
-    width: 15rem;
-    height: 15rem;
-	padding: 0rem;
-    position: absolute;
-    top:13rem;
-	box-shadow: 0px 5px 16px 1px rgba(143, 134, 36, 0.756);
-    animation: myAnim_logobanner 3s ease 0s 1 normal forwards;
-}
 
-@keyframes myAnim_logobanner {
-	0% {
-		opacity: 0;
-	}
 
-	100% {
-		opacity: 1;
-	}
-}
+
 
 
 
