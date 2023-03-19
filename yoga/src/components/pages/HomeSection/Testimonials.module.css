@@ -6,9 +6,10 @@
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: column;
 }
+
 
 .testimonials__container h1{
     color: white;

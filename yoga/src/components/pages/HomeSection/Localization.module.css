@@ -1,6 +1,6 @@
 .map__container{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: rgb(201, 194, 194);
     display: flex;
     flex-direction: column;
@@ -17,11 +17,34 @@
 }
 
 .map__section{
-    background-image: url('https://wallpapercave.com/wp/wp4313180.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 80%;
-    height: 60%;  
+
+    margin:2rem;
+    padding: 2rem;
+
+}
+
+.inf__container{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.inf_un__container{
+background-color: rgba(128, 128, 128, 0.22);
+border-radius: 10px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content:start;
     margin:1rem;
-    border-radius: 10px;
+    padding: 1rem;
+}
+
+.inf_un__container p{
+    text-align: start;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    letter-spacing: 2px;
 }

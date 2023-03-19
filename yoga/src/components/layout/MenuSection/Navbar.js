@@ -36,8 +36,6 @@ function Navbar() {
                           <li className={styles.item}><Link to='/about'>Sobre</Link></li>
                       
                           <li className={styles.item}><Link to='/dormitorios'>Chalés</Link></li>
-
-                          <li className={styles.item}><Link to='/atividades'>Nossas atividades</Link></li>
                       
                           <li className={styles.item}><Link to='/trindade'>Trindade</Link></li>
 

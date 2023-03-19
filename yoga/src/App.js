@@ -11,8 +11,9 @@ import Footer from './components/layout/FooterSection/Footer'
 
 
 
+
 import './App.css';
-import Activity from './components/pages/ActivitySection/Activity'
+
 
 
 
@@ -30,9 +31,6 @@ function App() {
             </Route>
 
             <Route path='/dormitorios' element={<Dormitory />}>
-            </Route>
-
-            <Route path='/atividades' element={<Activity />}>
             </Route>
 
             <Route path='/trindade' element={<Trindade />}>

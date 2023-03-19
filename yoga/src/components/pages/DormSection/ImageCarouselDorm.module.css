@@ -11,7 +11,7 @@
 }
 
 .btn_change_dorm_left{
-    background-color: rgb(145, 94, 27);
+    background-color: rgb(223, 213, 7);
     color:white;
     width: 4rem;
     position: absolute;
@@ -20,7 +20,7 @@
 }
 
 .btn_change_dorm_right{
-    background-color: rgb(145, 94, 27);
+    background-color: rgb(223, 213, 7);
     color:white;
     width: 4rem;
     position: absolute;
@@ -30,13 +30,13 @@
 }
 
 .btn_change_dorm_right:hover{
-    background-color: rgb(138, 81, 8);
+    background-color: rgb(190, 187, 184);
     width: 4rem;
 
 }
 
 .btn_change_dorm_left:hover{
-    background-color: rgb(138, 81, 8);
+    background-color: rgb(190, 187, 184);
     width: 4rem;
 }
 
