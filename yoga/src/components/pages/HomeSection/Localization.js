@@ -31,4 +31,5 @@ function Localization() {
     )
 }
 
+
 export default Localization
