@@ -17,9 +17,13 @@ import './App.css';
 
 
 
+
 function App() {
   return (
+    
     <Router>
+
+      <div className='container_all__section'>
 
       <Navbar />
       
@@ -38,14 +42,15 @@ function App() {
 
             <Route path='/contact' element={<Contact />}>
             </Route>
-          </Routes>
+          </Routes>  
 
      
-
-
       <Footer />
+      </div>
+      
 
     </Router>
+    
   );
 }
 

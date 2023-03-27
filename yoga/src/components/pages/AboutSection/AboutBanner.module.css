@@ -52,7 +52,7 @@
     text-transform: lowercase;
 }
 
-@media screen and (min-width:320px) and (max-width:560px){
+@media screen and (max-width:768px){
 
     .about__banner__container{
         width: 100%;

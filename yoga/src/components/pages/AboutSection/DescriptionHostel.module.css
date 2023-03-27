@@ -30,3 +30,31 @@
     margin: 2rem;
     text-align: center;
 }
+
+@media screen and  (max-width:768px){
+    .description__hostel__container{
+        background-color: rgba(79, 66, 22, 0.727);
+        width: 23rem;
+        height: 20rem;
+        border-radius: 10px;
+        position: absolute;
+        right: 3.4rem;
+        top:55rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: myAnim 2.5s ease-in 0s 1 normal forwards;
+        overflow-y: auto;
+    }
+
+    .description__hostel__container p{
+        color: white;
+        letter-spacing: 2px;
+        line-height: 36px;
+        font-size: 0.8rem;
+        margin: 2rem;
+        text-align: center;
+    }
+
+
+}

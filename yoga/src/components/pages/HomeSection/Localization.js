@@ -8,7 +8,7 @@ function Localization() {
         
         <h1>Veja como chegar</h1>
         <div className={styles.inf__container}>
-          <div className={styles.inf_un__container}>
+          <div className={styles.inf_un__container_a}>
             <h3>Localização:</h3>
             <p>Estamos localizados em Trindade. A Vila de Trindade está localizada no Litoral Sul Fluminense, no município de Paraty, estado do Rio de Janeiro. Fica próximo a divisa com Ubatuba, Estado de São Paulo. </p>
           </div>
@@ -23,7 +23,7 @@ function Localization() {
         </div>
 
         <div className={styles.map__section}>
-        <img src={ex_map} />
+        <h1>IMAGEM DO MAPS/MAP SECTION</h1>
         </div>
 
       </section>

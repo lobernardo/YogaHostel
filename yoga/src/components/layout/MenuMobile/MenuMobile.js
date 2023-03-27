@@ -22,8 +22,6 @@ function MenuMobile() {
                         <li className={styles.item_mobile}><Link to='/about'>Sobre</Link></li>
                     
                         <li className={styles.item_mobile}><Link to='/dormitorios'>Chalés</Link></li>
-
-                        <li className={styles.item_mobile}><Link to='/atividades'>Nossas atividades</Link></li>
                     
                         <li className={styles.item_mobile}><Link to='/trindade'>Trindade</Link></li>
 

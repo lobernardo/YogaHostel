@@ -2,7 +2,7 @@ import styles from './HomeTwo.module.css'
 import logo_apoio from '../../assets/logo_apoio.png'
 
 import 'animate.css'
-import ImageCarousel from './ImageCarousel'
+
 import CarouselHome from './CarouselHome'
 
 function HomeTwo (){
